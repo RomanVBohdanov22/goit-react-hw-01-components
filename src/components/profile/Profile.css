@@ -6,31 +6,36 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap: 12px;
+  gap: 4px;
 }
 .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: gray;
   color: antiquewhite;
+  margin: 10px;
 }
 .avatar {
   display: block;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
+  border-radius: 50%;
 }
 
 .stats {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 8px;
+  gap: 4px;
 }
 
 .stats li {
-  list-style-type: none;
+  /*list-style-type: none;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 8px;
+  gap: 4px;
 }
 
 .stats .quantity {
