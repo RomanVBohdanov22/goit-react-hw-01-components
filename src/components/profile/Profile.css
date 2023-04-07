@@ -12,3 +12,22 @@
   background-color: gray;
   color: antiquewhite;
 }
+.avatar {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
