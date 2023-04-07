@@ -1,0 +1,14 @@
+.profile {
+  padding: 20px 40px;
+  border: 1px solid #000;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 12px;
+}
+.description {
+  background-color: gray;
+  color: antiquewhite;
+}
