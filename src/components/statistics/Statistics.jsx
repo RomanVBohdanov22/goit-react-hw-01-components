@@ -1,5 +1,19 @@
 import '../statistics/Statistics.css';
+import StatisticsItem from './StatisticsItem';
 
+const Statistics = (stats) => { 
+    return ( <section className='statistics'>
+        <h2 className='title'>Upload stats</h2>
+            <ul className='stat-list'>
+                {stats.map((item) => {
+					return <StatisticsItem key={item.id} {...item} />;
+				})}
+            </ul>
+        </section>
+    );
+};
+
+export default Statistics;
 /*
 <section class="statistics">
   <h2 class="title">Upload stats</h2>

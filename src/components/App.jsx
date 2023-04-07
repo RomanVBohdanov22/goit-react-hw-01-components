@@ -3,6 +3,8 @@ import data from '../db/data';
 import friends from '../db/friends';
 
 import Profile from './profile';
+import Statistics from './statistics';
+import StatisticsItem from '../components/statistics/StatisticsItem';
 
 //React homework template{user.username} 
 export const App = () => {
@@ -24,8 +26,7 @@ export const App = () => {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats} />
-      
-
+  
     </div>
   );
 };
