@@ -1,4 +1,7 @@
 import user from '../db/user';
+import data from '../db/data';
+import friends from '../db/friends';
+
 import Profile from './profile';
 
 //React homework template{user.username} 
@@ -21,6 +24,12 @@ export const App = () => {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats} />
+      
+
     </div>
   );
 };
+/*
+<Statistics title="Upload stats" stats={data} />
+<Statistics stats={data} />
+*/

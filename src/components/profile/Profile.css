@@ -41,3 +41,9 @@
 .stats .quantity {
   font-weight: 700;
 }
+
+.name {
+  font-weight: 700;
+  color: black;
+  justify-content: space-around;
+}
