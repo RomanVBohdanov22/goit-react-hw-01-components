@@ -2,15 +2,15 @@ import '../friends/Friends.css';
 import FriendsItem from './FriendsItem';
 
 const FriendList = ({ friends }) => { 
-    return (
-        <ul className="friend-list">
-            {
+  return (
+    <ul className="friend-list">
+      {
         friends.map(item => {
-          return <FriendsItem key={item.id} {...item} />;
+          return <FriendsItem key={item.id} {...item} />
         })
-            }
-        </ul>
-    );    
+      }
+    </ul>
+  );    
 };
 export default FriendList;
 

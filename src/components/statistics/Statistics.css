@@ -18,6 +18,8 @@
 }
 .statistics .item {
   border: 1px solid orange;
+
+  width: 100px;
   padding: 8px;
   display: flex;
   flex-direction: column;
