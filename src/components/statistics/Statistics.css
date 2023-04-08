@@ -1,4 +1,5 @@
 .statistics {
+  padding: 0;
   border: 1px solid purple;
 }
 .statistics .title {
@@ -9,11 +10,11 @@
 }
 .stat-list {
   margin: 8px;
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  gap: 16px;
 }
 .item {
   border: 1px solid orange;
@@ -22,6 +23,7 @@
   flex-direction: column;
   justify-content: space-around;
   color: bisque;
+  font-weight: 700;
 }
 .item:nth-child(1) {
   background-color: aqua;
@@ -40,5 +42,8 @@
 }
 .item .percentage {
   padding: 4px;
-  font-weight: 700;
+}
+
+.item .label {
+  font-weight: 400;
 }
