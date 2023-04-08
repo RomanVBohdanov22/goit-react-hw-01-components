@@ -1,7 +1,9 @@
 .transaction-history {
   background-color: lightskyblue;
 }
-
+td {
+  width: 25%;
+}
 th {
   background-color: grey;
   color: whitesmoke;
