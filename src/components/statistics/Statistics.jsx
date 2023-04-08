@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import '../statistics/Statistics.css';
 import StatisticsItem from './StatisticsItem';
 
@@ -15,6 +16,12 @@ const Statistics = ({ title, stats }) => {
 };
 
 export default Statistics;
+
+Statistics.propTypes= {
+    title: PropTypes.string,
+    stats: PropTypes.array.isRequired,
+};
+
 /*
 <section class="statistics">
   <h2 class="title">Upload stats</h2>
