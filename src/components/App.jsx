@@ -18,6 +18,7 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 24,
         color: '#010101',
+        flexDirection: 'column',
       }}
     >
       <Profile
@@ -26,7 +27,9 @@ export const App = () => {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats} />
-  
+
+      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
     </div>
   );
 };

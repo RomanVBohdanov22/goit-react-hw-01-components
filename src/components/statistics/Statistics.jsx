@@ -1,7 +1,7 @@
 import '../statistics/Statistics.css';
 import StatisticsItem from './StatisticsItem';
 
-const Statistics = (stats) => { 
+const Statistics = ({ title , stats }) => { 
     return ( <section className='statistics'>
         <h2 className='title'>Upload stats</h2>
             <ul className='stat-list'>
