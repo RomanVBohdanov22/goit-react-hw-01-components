@@ -42,5 +42,3 @@ export const App = () => {
     </div>
   );
 };
-
-//<TransactionHistory items={transactions} />;

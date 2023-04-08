@@ -1,4 +1,5 @@
 //TransactionItem
+import PropTypes from 'prop-types';
 
 const TransactionItem = ({ type, amount, currency }) => { 
     return (
@@ -12,24 +13,8 @@ const TransactionItem = ({ type, amount, currency }) => {
 
 export default TransactionItem;
 
-/**
-   {
-    "id": "44dca67a-8e5a-4798-bf8e-b15efd4e1abd",
-    "type": "invoice",
-    "amount": "828.62",
-    "currency": "UGX"
-  }
- */
-/*
-const FriendsItem = ({ avatar, name, isOnline }) => {
-    return (
-        <li className="item">
-            <span className={`status ${isOnline ? 'online' : 'offline'}`}></span>
-            <img className="avatar" src={avatar} alt="User avatar" width="48" />
-            <p className="name">{name}</p>
-        </li>
-    );
+TransactionItem.propTypes= {
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+    currency: PropTypes.string.isRequired,
 };
-
-export default FriendsItem;
-*/
