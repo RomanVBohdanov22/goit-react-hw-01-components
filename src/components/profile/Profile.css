@@ -18,7 +18,7 @@
   color: antiquewhite;
   margin: 10px;
 }
-.avatar {
+.profile .avatar {
   display: block;
   max-width: 70%;
   height: auto;

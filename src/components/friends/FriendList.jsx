@@ -19,3 +19,5 @@ FriendList.propTypes= {
     friends: PropTypes.array.isRequired,
     
 };
+
+//stats: PropTypes.arrayOf(PropTypes.shape({id: PropTypes.string.isRequired})),
