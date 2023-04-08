@@ -1,7 +1,11 @@
+.statistics {
+  border: 1px solid purple;
+}
 .statistics .title {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border: 1px dotted greenyellow;
 }
 .stat-list {
   margin: 8px;
@@ -13,4 +17,26 @@
 }
 .item {
   border: 1px solid orange;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.item:nth-child(1) {
+  background-color: aqua;
+}
+.item:nth-child(2) {
+  background-color: blueviolet;
+}
+.item:nth-child(3) {
+  background-color: crimson;
+}
+.item:nth-child(4) {
+  background-color: green;
+}
+.item:nth-child(5) {
+  background-color: cadetblue;
+}
+.item .percentage {
+  font-weight: 700;
 }
