@@ -1,7 +1,7 @@
 const FriendsItem = ({ avatar, name, isOnline }) => {
   return (
     <li className="item">
-          { {isOnline} ?
+          { ({isOnline}===true) ?
               (<span className="status online">On -l.</span>) :
               (<span className="status">Off-l.</span>)
           }
