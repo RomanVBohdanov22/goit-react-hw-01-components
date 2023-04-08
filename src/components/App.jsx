@@ -1,10 +1,10 @@
 import user from '../db/user';
 import data from '../db/data';
-import friends from '../db/friends';
+//import friends from '../db/friends';
 
 import Profile from './profile';
 import Statistics from './statistics';
-import StatisticsItem from '../components/statistics/StatisticsItem';
+//import StatisticsItem from '../components/statistics/StatisticsItem';
 
 //React homework template{user.username}
 export const App = () => {
