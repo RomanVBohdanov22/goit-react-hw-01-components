@@ -1,0 +1,16 @@
+.statistics .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.stat-list {
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  gap: 16px;
+}
+.item {
+  border: 1px solid orange;
+}

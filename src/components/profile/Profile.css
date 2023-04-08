@@ -4,14 +4,16 @@
   margin: 10px;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
-  gap: 4px;
+  align-items: stretch;
+  gap: 20px;
 }
 .description {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   background-color: gray;
   color: antiquewhite;
   margin: 10px;

@@ -16,6 +16,7 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        listStyle: 'none',
         fontSize: 24,
         color: '#010101',
         flexDirection: 'column',
