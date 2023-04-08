@@ -1,5 +1,32 @@
 import '../friends/Friends.css';
+import FriendsItem from './FriendsItem';
 
+const FriendList = ({ friends }) => { 
+    return (
+        <ul className="friend-list">
+            {
+        friends.map(item => {
+          return <FriendsItem key={item.id} {...item} />;
+        })
+            }
+        </ul>
+    );    
+};
+export default FriendList;
+
+/*
+
+<ul class="friend-list">
+  <!-- Довільна кіл-сть FriendListItem -->
+</ul>
+
+<li class="item">
+  <span class="status"></span>
+  <img class="avatar" src="" alt="User avatar" width="48" />
+  <p class="name"></p>
+</li>
+
+*/
 /*
 import '../statistics/Statistics.css';
 import StatisticsItem from './StatisticsItem';
