@@ -8,7 +8,7 @@
   justify-content: space-around;
   border: 1px dotted greenyellow;
 }
-.stat-list {
+.statistics .stat-list {
   margin: 8px;
   padding: 0;
   display: flex;
@@ -16,7 +16,7 @@
   justify-content: space-between;
   list-style: none;
 }
-.item {
+.statistics .item {
   border: 1px solid orange;
   padding: 8px;
   display: flex;
@@ -25,25 +25,25 @@
   color: bisque;
   font-weight: 700;
 }
-.item:nth-child(1) {
+.statistics .item:nth-child(1) {
   background-color: aqua;
 }
-.item:nth-child(2) {
+.statistics .item:nth-child(2) {
   background-color: blueviolet;
 }
-.item:nth-child(3) {
+.statistics .item:nth-child(3) {
   background-color: crimson;
 }
-.item:nth-child(4) {
+.statistics .item:nth-child(4) {
   background-color: green;
 }
-.item:nth-child(5) {
+.statistics .item:nth-child(5) {
   background-color: cadetblue;
 }
-.item .percentage {
+.statistics .percentage {
   padding: 4px;
 }
 
-.item .label {
+.statistics .label {
   font-weight: 400;
 }

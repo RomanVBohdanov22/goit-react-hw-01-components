@@ -6,7 +6,7 @@ import Profile from './profile';
 import Statistics from './statistics';
 import StatisticsItem from '../components/statistics/StatisticsItem';
 
-//React homework template{user.username} 
+//React homework template{user.username}
 export const App = () => {
   return (
     <div
@@ -27,14 +27,26 @@ export const App = () => {
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
-        stats={user.stats} />
+        stats={user.stats}
+      />
 
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
+
     </div>
   );
 };
 /*
-<Statistics title="Upload stats" stats={data} />
-<Statistics stats={data} />
+
+<FriendList friends={friends} />;
+
+<ul class="friend-list">
+  <!-- Довільна кіл-сть FriendListItem -->
+</ul>
+
+<li class="item">
+  <span class="status"></span>
+  <img class="avatar" src="" alt="User avatar" width="48" />
+  <p class="name"></p>
+</li>
 */
