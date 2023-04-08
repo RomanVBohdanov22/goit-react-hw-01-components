@@ -1,5 +1,14 @@
+const FriendsItem = ({ avatar, name, isOnline }) => {
+  return (
+    <li className="item">
+      <span className="status">{isOnline}</span>
+      <img className="avatar" src={avatar} alt="User avatar" width="48" />
+      <p className="name">{name}</p>
+    </li>
+  );
+};
 
-
+export default FriendsItem;
 
 /*
 <li class="item">
@@ -15,17 +24,4 @@
     "isOnline": true,
     "id": 1812
   }
-*/
-
-/*
-const StatisticsItem = ({ label, percentage }) => {
-  return (
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage"> {percentage}%</span>
-    </li>
-  );
-};
-
-export default StatisticsItem;
 */
