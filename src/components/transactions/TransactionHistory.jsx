@@ -28,4 +28,3 @@ export default TransactionHistory;
 TransactionHistory.propTypes= {
     items: PropTypes.arrayOf(PropTypes.shape({id: PropTypes.string.isRequired})).isRequired,    
 };
-//stats: PropTypes.arrayOf(PropTypes.shape({id: PropTypes.string.isRequired})),

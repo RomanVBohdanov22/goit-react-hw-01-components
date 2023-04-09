@@ -7,8 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px dotted greenyellow;
   color: indigo;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 .statistics .stat-list {
   margin: 8px;

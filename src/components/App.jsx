@@ -13,7 +13,8 @@ export const App = () => {
   return (
     <div
       style={{
-        marginTop: '10px',
+        margin: '0',
+        padding: '0',
         //height: '100vh',
         display: 'flex',
         justifyContent: 'center',

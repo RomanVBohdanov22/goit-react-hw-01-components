@@ -1,51 +1,75 @@
 .profile {
-  padding: 20px 40px;
-  border: 1px solid #000;
-  margin: 10px;
+  margin-bottom: 16px;
+  padding: 30px 0px 0px 0px;
+  border: 1px solid darkgreen;
+  width: auto;
   list-style: none;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: stretch;
-  gap: 20px;
+  /*gap: 8px;*/
 }
-.description {
+.profile .description {
+  padding: 0;
+  margin: 0px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: gray;
-  color: antiquewhite;
+  color: darkslategray;
   margin: 10px;
 }
+
+.profile .name {
+  font-weight: 700;
+  font-size: 64px;
+  color: black;
+  justify-content: space-around;
+}
+
 .profile .avatar {
   display: block;
   max-width: 70%;
   height: auto;
   border-radius: 50%;
+  background-color: lightgreen;
 }
 
-.stats {
+.profile .stats {
+  margin: 0px;
   display: flex;
+  padding-left: 0;
+  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 4px;
 }
 
 .stats li {
   /*list-style-type: none;*/
+  max-width: 33%;
+  width: 30%;
   display: flex;
+  padding: 16px;
+  background-color: silver;
   flex-direction: column;
   justify-content: space-between;
+  border: 2px solid white;
+  box-shadow: 4px 0px 0px lightseagreen;
+  align-items: stretch;
   gap: 4px;
 }
-
+.profile .label {
+  font-weight: 400;
+}
 .stats .quantity {
   font-weight: 700;
+  font-size: 32px;
 }
-
-.name {
-  font-weight: 700;
-  color: black;
-  justify-content: space-around;
+.stats li:nth-child(3) {
+  box-shadow: 0px 0px 0px lightseagreen;
 }

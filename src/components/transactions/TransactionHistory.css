@@ -1,5 +1,7 @@
 .transaction-history {
   background-color: lightskyblue;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 td {
   width: 25%;
