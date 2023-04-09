@@ -1,6 +1,8 @@
 .statistics {
   padding: 0;
   border: 1px solid purple;
+  overflow: hidden;
+  border-radius: 14%;
   margin-bottom: 8px;
 }
 .statistics .title {
