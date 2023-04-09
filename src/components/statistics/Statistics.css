@@ -1,6 +1,7 @@
 .statistics {
   padding: 0;
   border: 1px solid purple;
+  margin-bottom: 8px;
 }
 .statistics .title {
   display: flex;
@@ -19,7 +20,6 @@
 }
 .statistics .item {
   border: 1px solid orange;
-
   width: 100px;
   padding: 8px;
   display: flex;
